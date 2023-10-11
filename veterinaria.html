@@ -15,7 +15,7 @@
         </h1>
       </div>
 
-      <button onclick="crear()" style="margin: 20px 0px" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <button onclick="crear()" style="margin: 20px 0px" data-bs-toggle="modal" data-bs-target="#exampleModal" class="añadir">
         Nueva cita
       </button>
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -511,5 +511,9 @@ function filtrarPorEstado() {
   .contenedorTarjetas{
     display: flex;
     flex-direction: row;
+  }
+  .añadir{
+    background-color: rgb(255 140 3);
+    font-weight: bold;
   }
 </style>
